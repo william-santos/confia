@@ -32906,14 +32906,16 @@ video {
 }
 
 .custom-img {
-  background-image: url('images/bg-60.png');
+  background-image: url('images/bg.png');
 }
 
-#header, #contate {
+#header,
+#contate {
   border-bottom: solid 10px #7c483c;
 }
 
-#header::after, #contate::after {
+#header::after,
+#contate::after {
   content: '';
   width: 40%;
   height: 10px;
@@ -32924,11 +32926,13 @@ video {
   background: #5e9f92;
 }
 
-#confia, #mercados {
+#confia,
+#mercados {
   border-bottom: solid 10px #5e9f92;
 }
 
-#confia:after, #mercados:after {
+#confia:after,
+#mercados:after {
   content: '';
   width: 60%;
   height: 10px;
